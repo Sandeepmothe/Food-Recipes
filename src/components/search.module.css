@@ -1,0 +1,16 @@
+.searchContainer{
+    margin: 1rem auto;
+    /* text-align: center; */
+    width: 300px;
+    /* position: relative; */
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid #ced09f;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    color: rgb(78, 35, 35);
+}

@@ -1,0 +1,10 @@
+.header {
+  background-color: rgb(254, 191, 73);
+  font-weight: bold;
+  width: 100%;         /* ✅ Fix */
+  font-size: 3em;
+  text-align: center;
+  height: 85px;
+  padding-top: 1rem;
+  box-shadow: 0 6px 4px rgba(0,0,0,0.5);
+}
