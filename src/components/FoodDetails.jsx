@@ -5,7 +5,7 @@ import ItemList from "./ItemList";
 export default function FoodDetails({ foodId }) {
   const [food, setFood] = useState([]);
   const [loading, setLoading] = useState(true);
-  const API_KEY = "9c7efb20418f4df29f282e22836feba2";
+  const API_KEY = import.meta.env.VITE_SPOON_API_KEY;
 
   useEffect(() => {
     if (!foodId) return;
@@ -22,7 +22,7 @@ export default function FoodDetails({ foodId }) {
         }
 
         const data = await res.json();
-        console.log(data);
+        // console.log(data);
         setFood(data);
       } catch (error) {
         console.error("Error fetching recipe:", error);

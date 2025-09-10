@@ -1,7 +1,7 @@
 .header {
   background-color: rgb(254, 191, 73);
   font-weight: bold;
-  width: 100%;         /* ✅ Fix */
+  width: 100%;        
   font-size: 3em;
   text-align: center;
   height: 85px;
